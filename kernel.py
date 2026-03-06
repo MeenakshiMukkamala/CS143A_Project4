@@ -57,7 +57,8 @@ class Kernel:
     # Called before the simulation begins.
     # Use this method to initilize any variables you need throughout the simulation.
     # DO NOT rename or delete this method. DO NOT change its arguments.
-    def __init__(self, scheduling_algorithm: str, logger):
+    #CHANGED
+    def __init__(self, scheduling_algorithm: str, logger, mmu: "MMU", memory_size: int):
         self.scheduling_algorithm = scheduling_algorithm
         self.ready_queue = deque()
         self.waiting_queue = deque()
@@ -77,7 +78,8 @@ class Kernel:
     # new_process is this process's PID.
     # priority is the priority of new_process.
     # DO NOT rename or delete this method. DO NOT change its arguments.
-    def new_process_arrived(self, new_process: PID, priority: int, process_type: str) -> PID:
+    #CHANGED
+    def new_process_arrived(self, new_process: PID, priority: int, process_type: str, stack_memory_needed: int, heap_memory_needed: int) -> PID
         self.ready_queue.append(PCB(new_process, priority, process_type))
         if self.scheduling_algorithm == MULTILEVEL and self.running is self.idle_pcb:
             self.active_queue_num_ticks = 0
@@ -316,3 +318,22 @@ def pop_min_pid(pcbs: list[PCB]):
     popped = pcbs[lowest_pid_i]
     del pcbs[lowest_pid_i]
     return popped
+
+
+# This class represents the MMU of the simulation.
+# The simulator will create an instance of this object and use it to translate memory accesses.
+# DO NOT modify the name of this class or remove it.
+#CHANGED
+class MMU:
+    # Called before the simulation begins (even before kernel __init__).
+    # Use this function to initialize any variables you need throughout the simulation.
+    # DO NOT rename or delete this method. DO NOT change its arguments.
+    def __init__(self, logger):
+        pass
+     
+    # Translate the virtual address to its physical address.
+    # If it is not a valid address for the given process, return None which will cause a segmentation fault.
+    # If it is valid, translate the given virtual address to its physical address.
+    # DO NOT rename or delete this method. DO NOT change its arguments.
+    def translate(self, address: int, pid: PID) -> int | None:
+            return None

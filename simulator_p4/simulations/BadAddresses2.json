@@ -1,0 +1,47 @@
+{
+    "scheduling_algorithm": "RR",
+    "memory_size_MB": 45,
+    "processes": [
+        {
+            "arrival": 0,
+            "total_cpu_time": 212,
+            "needed_stack_memory_MB": 12,
+            "needed_heap_memory_MB": 3,
+            "memory_access": [
+                {"0xEFFFFFFF": 4},
+                {"0x202FFFFF": 44},
+                {"0x1FFFFFFF": 140}
+            ]
+        },
+        {
+            "arrival": 50,
+            "total_cpu_time": 300,
+            "needed_stack_memory_MB": 15,
+            "needed_heap_memory_MB": 4,
+            "memory_access": [
+                {"0x20000000": 8},
+                {"0xEF100000": 70},
+                {"0xEF0FFFFF": 100}
+            ]
+        },
+        {
+            "arrival": 500,
+            "total_cpu_time": 223,
+            "needed_stack_memory_MB": 1,
+            "needed_heap_memory_MB": 24,
+            "memory_access": [
+                {"0x21000000": 8},
+                {"0xEFFF23FF": 100}
+            ]
+        },
+        {
+            "arrival": 554,
+            "total_cpu_time": 30,
+            "needed_stack_memory_MB": 3,
+            "needed_heap_memory_MB": 2,
+            "memory_access": [
+                {"0x12332342": 8}
+            ]
+        }
+    ]
+}

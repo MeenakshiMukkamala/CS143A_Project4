@@ -1,0 +1,173 @@
+0.000s : Foreground process 1 arrived with priority 32 requesting 5.0MB of stack and 0.0MB of heap
+0.000s : Context switching to pid: 1
+
+0.004s : Process 1 accessed virtual address 0xefffffff which translates to physical address 0xefffff
+
+0.023s : Foreground process 2 arrived with priority 32 requesting 15.0MB of stack and 0.0MB of heap
+
+0.040s : Context switching to pid: 2
+
+0.048s : Process 2 accessed virtual address 0xefffffff which translates to physical address 0x1dfffff
+
+0.080s : Context switching to pid: 1
+
+0.120s : Context switching to pid: 2
+
+0.160s : Context switching to pid: 1
+
+0.200s : Context switching to pid: 2
+
+0.240s : Context switching to pid: 1
+
+0.280s : Context switching to pid: 2
+
+0.320s : Context switching to pid: 1
+
+0.360s : Context switching to pid: 2
+
+0.400s : Context switching to pid: 1
+
+0.440s : Context switching to pid: 2
+
+0.480s : Context switching to pid: 1
+
+0.520s : Context switching to pid: 2
+
+0.553s : Foreground process 3 arrived with priority 32 requesting 25.0MB of stack and 0.0MB of heap
+
+0.560s : Context switching to pid: 1
+
+0.600s : Context switching to pid: 3
+
+0.604s : Process 3 accessed virtual address 0xefffffff which translates to physical address 0x36fffff
+
+0.635s : Process 3 tried to access virtual address 0xf0000000 which caused a segfault
+0.635s : Process 3 has trapped and is forcefully exiting
+0.635s : Context switching to pid: 2
+
+0.670s : Context switching to pid: 1
+
+0.683s : Process 1 has finished execution and is exiting
+0.683s : Context switching to pid: 2
+
+0.868s : Process 2 accessed virtual address 0xeffffffe which translates to physical address 0x1dffffe
+
+1.000s : Foreground process 4 arrived with priority 32 requesting 1.0MB of stack and 0.0MB of heap
+1.000s : Context switching to pid: 4
+
+1.004s : Process 4 accessed virtual address 0xefffffff which translates to physical address 0xafffff
+
+1.023s : Foreground process 5 arrived with priority 32 requesting 5.0MB of stack and 0.0MB of heap
+
+1.033s : Foreground process 6 arrived with priority 32 requesting 3.0MB of stack and 0.0MB of heap
+
+1.035s : Process 4 accessed virtual address 0xefffff23 which translates to physical address 0xafff23
+
+1.040s : Context switching to pid: 2
+
+1.080s : Context switching to pid: 5
+
+1.084s : Process 5 accessed virtual address 0xefffffff which translates to physical address 0x22fffff
+
+1.115s : Process 5 tried to access virtual address 0x30000000 which caused a segfault
+1.115s : Process 5 has trapped and is forcefully exiting
+1.115s : Context switching to pid: 6
+
+1.119s : Process 6 accessed virtual address 0xefffffff which translates to physical address 0xdfffff
+
+1.150s : Context switching to pid: 4
+
+1.155s : Process 4 has finished execution and is exiting
+1.155s : Context switching to pid: 2
+
+1.190s : Context switching to pid: 6
+
+1.230s : Context switching to pid: 2
+
+1.270s : Context switching to pid: 6
+
+1.310s : Context switching to pid: 2
+
+1.350s : Context switching to pid: 6
+
+1.390s : Context switching to pid: 2
+
+1.400s : Foreground process 7 arrived with priority 32 requesting 20.0MB of stack and 0.0MB of heap
+
+1.430s : Context switching to pid: 6
+
+1.470s : Context switching to pid: 7
+
+1.474s : Process 7 accessed virtual address 0xefffffff which translates to physical address 0x31fffff
+
+1.488s : Process 7 tried to access virtual address 0x20000000 which caused a segfault
+1.488s : Process 7 has trapped and is forcefully exiting
+1.488s : Context switching to pid: 2
+
+1.520s : Context switching to pid: 6
+
+1.560s : Context switching to pid: 2
+
+1.600s : Context switching to pid: 6
+
+1.640s : Context switching to pid: 2
+
+1.641s : Process 2 has finished execution and is exiting
+1.641s : Context switching to pid: 6
+
+1.666s : Process 6 has finished execution and is exiting
+1.666s : Context switching to pid: 0
+
+2.532s : Foreground process 8 arrived with priority 32 requesting 15.0MB of stack and 0.0MB of heap
+2.532s : Context switching to pid: 8
+
+2.533s : Foreground process 9 arrived with priority 32 requesting 33.0MB of stack and 0.0MB of heap
+
+2.536s : Process 8 accessed virtual address 0xefffffff which translates to physical address 0x18fffff
+
+2.570s : Context switching to pid: 9
+
+2.574s : Process 9 accessed virtual address 0xefffffff which translates to physical address 0x39fffff
+
+2.600s : Foreground process 10 arrived with priority 32 requesting 19.0MB of stack and 0.0MB of heap
+2.600s : Unable to allocate memory for new process. Dropping process.
+
+2.605s : Process 9 tried to access virtual address 0x0 which caused a segfault
+2.605s : Process 9 has trapped and is forcefully exiting
+2.605s : Context switching to pid: 8
+
+2.633s : Foreground process 11 arrived with priority 32 requesting 1.0MB of stack and 0.0MB of heap
+
+2.640s : Context switching to pid: 11
+
+2.644s : Process 11 accessed virtual address 0xefffffff which translates to physical address 0x19fffff
+
+2.680s : Context switching to pid: 8
+
+2.720s : Context switching to pid: 11
+
+2.730s : Foreground process 12 arrived with priority 32 requesting 4.0MB of stack and 0.0MB of heap
+
+2.760s : Context switching to pid: 8
+
+2.800s : Context switching to pid: 12
+
+2.804s : Process 12 accessed virtual address 0xefffffff which translates to physical address 0x1dfffff
+
+2.840s : Context switching to pid: 11
+
+2.871s : Process 11 has finished execution and is exiting
+2.871s : Context switching to pid: 8
+
+2.910s : Context switching to pid: 12
+
+2.950s : Context switching to pid: 8
+
+2.990s : Context switching to pid: 12
+
+3.021s : Process 12 has finished execution and is exiting
+3.021s : Context switching to pid: 8
+
+3.022s : Process 8 has finished execution and is exiting
+3.022s : Context switching to pid: 0
+

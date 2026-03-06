@@ -1,0 +1,188 @@
+0.000s : Foreground process 1 arrived with priority 32 requesting 5.0MB of stack and 12.0MB of heap
+0.000s : Context switching to pid: 1
+
+0.004s : Process 1 accessed virtual address 0x20000000 which translates to physical address 0xf00000
+
+0.006s : Process 1 accessed virtual address 0xefb00000 which translates to physical address 0xa00000
+
+0.023s : Foreground process 2 arrived with priority 32 requesting 20.0MB of stack and 1.0MB of heap
+
+0.040s : Context switching to pid: 2
+
+0.044s : Process 2 accessed virtual address 0x20000000 which translates to physical address 0x2f00000
+
+0.046s : Process 2 accessed virtual address 0xeec00000 which translates to physical address 0x1b00000
+
+0.080s : Context switching to pid: 1
+
+0.120s : Context switching to pid: 2
+
+0.160s : Context switching to pid: 1
+
+0.200s : Context switching to pid: 2
+
+0.240s : Context switching to pid: 1
+
+0.280s : Context switching to pid: 2
+
+0.320s : Context switching to pid: 1
+
+0.360s : Context switching to pid: 2
+
+0.400s : Context switching to pid: 1
+
+0.440s : Context switching to pid: 2
+
+0.480s : Context switching to pid: 1
+
+0.520s : Context switching to pid: 2
+
+0.553s : Foreground process 3 arrived with priority 32 requesting 33.0MB of stack and 0.0MB of heap
+
+0.560s : Context switching to pid: 1
+
+0.600s : Context switching to pid: 3
+
+0.604s : Process 3 accessed virtual address 0xedf00000 which translates to physical address 0x3000000
+
+0.640s : Context switching to pid: 2
+
+0.680s : Context switching to pid: 1
+
+0.693s : Process 1 has finished execution and is exiting
+0.693s : Context switching to pid: 3
+
+0.730s : Context switching to pid: 2
+
+0.770s : Context switching to pid: 3
+
+0.810s : Context switching to pid: 2
+
+0.850s : Context switching to pid: 3
+
+0.890s : Context switching to pid: 2
+
+0.930s : Context switching to pid: 3
+
+0.970s : Context switching to pid: 2
+
+1.000s : Foreground process 4 arrived with priority 32 requesting 17.0MB of stack and 31.0MB of heap
+
+1.010s : Context switching to pid: 3
+
+1.013s : Process 3 has finished execution and is exiting
+1.013s : Context switching to pid: 4
+
+1.017s : Process 4 accessed virtual address 0x20000000 which translates to physical address 0x5100000
+
+1.019s : Process 4 accessed virtual address 0xeff00000 which translates to physical address 0x1a00000
+
+1.023s : Foreground process 5 arrived with priority 32 requesting 5.0MB of stack and 9.0MB of heap
+
+1.033s : Foreground process 6 arrived with priority 32 requesting 50.0MB of stack and 0.0MB of heap
+1.033s : Unable to allocate memory for new process. Dropping process.
+
+1.050s : Context switching to pid: 2
+
+1.090s : Context switching to pid: 5
+
+1.094s : Process 5 accessed virtual address 0x20000000 which translates to physical address 0x7500000
+
+1.096s : Process 5 accessed virtual address 0xefb00000 which translates to physical address 0x7000000
+
+1.130s : Context switching to pid: 4
+
+1.138s : Process 4 has finished execution and is exiting
+1.138s : Context switching to pid: 2
+
+1.170s : Context switching to pid: 5
+
+1.210s : Context switching to pid: 2
+
+1.250s : Context switching to pid: 5
+
+1.290s : Context switching to pid: 2
+
+1.330s : Context switching to pid: 5
+
+1.370s : Context switching to pid: 2
+
+1.400s : Foreground process 7 arrived with priority 32 requesting 40.0MB of stack and 17.0MB of heap
+
+1.410s : Context switching to pid: 5
+
+1.450s : Context switching to pid: 7
+
+1.454s : Process 7 accessed virtual address 0x20000000 which translates to physical address 0xa00000
+
+1.456s : Process 7 accessed virtual address 0xed800000 which translates to physical address 0x3000000
+
+1.460s : Foreground process 8 arrived with priority 32 requesting 51.0MB of stack and 13.0MB of heap
+1.460s : Unable to allocate memory for new process. Dropping process.
+
+1.470s : Process 7 has finished execution and is exiting
+1.470s : Context switching to pid: 2
+
+1.500s : Context switching to pid: 5
+
+1.540s : Context switching to pid: 2
+
+1.580s : Context switching to pid: 5
+
+1.620s : Context switching to pid: 2
+
+1.660s : Context switching to pid: 5
+
+1.680s : Process 5 has finished execution and is exiting
+1.680s : Context switching to pid: 2
+
+1.798s : Process 2 has finished execution and is exiting
+1.798s : Context switching to pid: 0
+
+2.532s : Foreground process 9 arrived with priority 32 requesting 15.0MB of stack and 12.0MB of heap
+2.532s : Context switching to pid: 9
+
+2.533s : Foreground process 10 arrived with priority 32 requesting 33.0MB of stack and 1.0MB of heap
+
+2.536s : Process 9 accessed virtual address 0x20000000 which translates to physical address 0x1900000
+
+2.538s : Process 9 accessed virtual address 0xef100000 which translates to physical address 0xa00000
+
+2.570s : Context switching to pid: 10
+
+2.574s : Process 10 accessed virtual address 0x20000000 which translates to physical address 0x4600000
+
+2.576s : Process 10 accessed virtual address 0xedf00000 which translates to physical address 0x2500000
+
+2.600s : Foreground process 11 arrived with priority 32 requesting 62.0MB of stack and 0.0MB of heap
+2.600s : Unable to allocate memory for new process. Dropping process.
+
+2.610s : Context switching to pid: 9
+
+2.633s : Foreground process 12 arrived with priority 32 requesting 1.0MB of stack and 0.0MB of heap
+
+2.650s : Context switching to pid: 10
+
+2.690s : Context switching to pid: 12
+
+2.694s : Process 12 accessed virtual address 0xeff00000 which translates to physical address 0x4700000
+
+2.730s : Foreground process 13 arrived with priority 32 requesting 50.0MB of stack and 12.0MB of heap
+2.730s : Unable to allocate memory for new process. Dropping process.
+2.730s : Context switching to pid: 9
+
+2.770s : Context switching to pid: 10
+
+2.801s : Process 10 has finished execution and is exiting
+2.801s : Context switching to pid: 12
+
+2.840s : Context switching to pid: 9
+
+2.880s : Context switching to pid: 12
+
+2.912s : Process 12 has finished execution and is exiting
+2.912s : Context switching to pid: 9
+
+2.987s : Process 9 has finished execution and is exiting
+2.987s : Context switching to pid: 0
+

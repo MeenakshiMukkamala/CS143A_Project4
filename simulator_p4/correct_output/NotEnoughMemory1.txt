@@ -1,0 +1,48 @@
+0.000s : Foreground process 1 arrived with priority 32 requesting 50.0MB of stack and 0.0MB of heap
+0.000s : Context switching to pid: 1
+
+0.230s : Foreground process 2 arrived with priority 32 requesting 29.0MB of stack and 0.0MB of heap
+
+0.240s : Context switching to pid: 2
+
+0.280s : Context switching to pid: 1
+
+0.320s : Context switching to pid: 2
+
+0.360s : Context switching to pid: 1
+
+0.400s : Context switching to pid: 2
+
+0.440s : Context switching to pid: 1
+
+0.480s : Context switching to pid: 2
+
+0.500s : Foreground process 3 arrived with priority 32 requesting 22.0MB of stack and 0.0MB of heap
+0.500s : Unable to allocate memory for new process. Dropping process.
+
+0.520s : Context switching to pid: 1
+
+0.560s : Context switching to pid: 2
+
+0.600s : Context switching to pid: 1
+
+0.640s : Context switching to pid: 2
+
+0.680s : Context switching to pid: 1
+
+0.720s : Context switching to pid: 2
+
+0.760s : Context switching to pid: 1
+
+0.775s : Process 1 has finished execution and is exiting
+0.775s : Context switching to pid: 2
+
+0.795s : Process 2 has finished execution and is exiting
+0.795s : Context switching to pid: 0
+
+0.800s : Foreground process 4 arrived with priority 32 requesting 22.0MB of stack and 0.0MB of heap
+0.800s : Context switching to pid: 4
+
+1.050s : Process 4 has finished execution and is exiting
+1.050s : Context switching to pid: 0
+

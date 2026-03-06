@@ -1,0 +1,95 @@
+0.000s : Foreground process 1 arrived with priority 4 requesting 8.0MB of stack and 0.0MB of heap
+0.000s : Context switching to pid: 1
+
+0.004s : Process 1 accessed virtual address 0xef800000 which translates to physical address 0xa00000
+
+0.015s : Foreground process 2 arrived with priority 5 requesting 3.0MB of stack and 0.0MB of heap
+
+0.016s : Foreground process 3 arrived with priority 3 requesting 9.0MB of stack and 0.0MB of heap
+0.016s : Context switching to pid: 3
+
+0.020s : Process 3 accessed virtual address 0xef700000 which translates to physical address 0x1500000
+
+0.023s : Foreground process 4 arrived with priority 25 requesting 20.0MB of stack and 0.0MB of heap
+
+0.100s : Foreground process 5 arrived with priority 35 requesting 44.0MB of stack and 0.0MB of heap
+
+0.144s : Foreground process 6 arrived with priority 2 requesting 5.0MB of stack and 0.0MB of heap
+0.144s : Context switching to pid: 6
+
+0.148s : Process 6 accessed virtual address 0xefb00000 which translates to physical address 0x5e00000
+
+0.200s : Foreground process 7 arrived with priority 8 requesting 1.0MB of stack and 0.0MB of heap
+
+0.204s : Process 6 has finished execution and is exiting
+0.204s : Context switching to pid: 3
+
+0.221s : Foreground process 8 arrived with priority 37 requesting 70.0MB of stack and 0.0MB of heap
+
+0.226s : Process 3 has finished execution and is exiting
+0.226s : Context switching to pid: 1
+
+0.227s : Process 1 has finished execution and is exiting
+0.227s : Context switching to pid: 2
+
+0.231s : Process 2 accessed virtual address 0xefd00000 which translates to physical address 0x1200000
+
+0.237s : Process 2 has finished execution and is exiting
+0.237s : Context switching to pid: 7
+
+0.241s : Process 7 accessed virtual address 0xeff00000 which translates to physical address 0x6300000
+
+0.260s : Foreground process 9 arrived with priority 7 requesting 6.0MB of stack and 0.0MB of heap
+0.260s : Context switching to pid: 9
+
+0.264s : Process 9 accessed virtual address 0xefa00000 which translates to physical address 0xa00000
+
+0.270s : Process 9 has finished execution and is exiting
+0.270s : Context switching to pid: 7
+
+0.280s : Process 7 has finished execution and is exiting
+0.280s : Context switching to pid: 4
+0.280s : Foreground process 10 arrived with priority 7 requesting 6.0MB of stack and 0.0MB of heap
+0.280s : Context switching to pid: 10
+
+0.284s : Process 10 accessed virtual address 0xefa00000 which translates to physical address 0x5e00000
+
+0.290s : Process 10 has finished execution and is exiting
+0.290s : Context switching to pid: 4
+
+0.294s : Process 4 accessed virtual address 0xeec00000 which translates to physical address 0x1e00000
+
+0.300s : Foreground process 11 arrived with priority 39 requesting 15.0MB of stack and 0.0MB of heap
+
+0.321s : Foreground process 12 arrived with priority 35 requesting 2.0MB of stack and 0.0MB of heap
+
+0.333s : Foreground process 13 arrived with priority 35 requesting 1.0MB of stack and 0.0MB of heap
+
+1.290s : Process 4 has finished execution and is exiting
+1.290s : Context switching to pid: 5
+
+1.294s : Process 5 accessed virtual address 0xed400000 which translates to physical address 0x3200000
+
+1.530s : Process 5 has finished execution and is exiting
+1.530s : Context switching to pid: 12
+
+1.534s : Process 12 accessed virtual address 0xefe00000 which translates to physical address 0x1900000
+
+1.641s : Process 12 has finished execution and is exiting
+1.641s : Context switching to pid: 13
+
+1.645s : Process 13 accessed virtual address 0xeff00000 which translates to physical address 0x1b00000
+
+1.752s : Process 13 has finished execution and is exiting
+1.752s : Context switching to pid: 8
+
+1.756s : Process 8 accessed virtual address 0xeba00000 which translates to physical address 0x6400000
+
+1.884s : Process 8 has finished execution and is exiting
+1.884s : Context switching to pid: 11
+
+1.888s : Process 11 accessed virtual address 0xef100000 which translates to physical address 0xa00000
+
+2.117s : Process 11 has finished execution and is exiting
+2.117s : Context switching to pid: 0
+

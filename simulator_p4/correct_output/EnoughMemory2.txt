@@ -1,0 +1,36 @@
+0.000s : Foreground process 1 arrived with priority 32 requesting 50.0MB of stack and 0.0MB of heap
+0.000s : Context switching to pid: 1
+
+0.100s : Process 1 accessed virtual address 0xece01321 which translates to physical address 0xa01321
+
+0.132s : Process 1 accessed virtual address 0xefffffff which translates to physical address 0x3bfffff
+
+0.152s : Process 1 accessed virtual address 0xeff02100 which translates to physical address 0x3b02100
+
+0.199s : Process 1 accessed virtual address 0xece00000 which translates to physical address 0xa00000
+
+0.230s : Foreground process 2 arrived with priority 32 requesting 16.0MB of stack and 13.0MB of heap
+
+0.300s : Process 1 accessed virtual address 0xeee02100 which translates to physical address 0x2a02100
+
+0.495s : Process 1 has finished execution and is exiting
+0.495s : Context switching to pid: 2
+
+0.500s : Foreground process 3 arrived with priority 32 requesting 22.0MB of stack and 0.0MB of heap
+
+0.550s : Foreground process 4 arrived with priority 32 requesting 11.0MB of stack and 11.0MB of heap
+
+0.595s : Process 2 accessed virtual address 0x200e1121 which translates to physical address 0x4ce1121
+
+0.647s : Process 2 tried to access virtual address 0x21132d00 which caused a segfault
+0.647s : Process 2 has trapped and is forcefully exiting
+0.647s : Context switching to pid: 3
+
+0.747s : Process 3 tried to access virtual address 0x200e1121 which caused a segfault
+0.747s : Process 3 has trapped and is forcefully exiting
+0.747s : Context switching to pid: 4
+
+0.847s : Process 4 tried to access virtual address 0x20de3321 which caused a segfault
+0.847s : Process 4 has trapped and is forcefully exiting
+0.847s : Context switching to pid: 0
+

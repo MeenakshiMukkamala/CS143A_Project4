@@ -1,0 +1,159 @@
+0.000s : Foreground process 1 arrived with priority 32 requesting 5.0MB of stack and 2.0MB of heap
+0.000s : Context switching to pid: 1
+
+0.004s : Process 1 accessed virtual address 0x20000000 which translates to physical address 0xf00000
+
+0.006s : Process 1 accessed virtual address 0xefb00000 which translates to physical address 0xa00000
+
+0.023s : Foreground process 2 arrived with priority 32 requesting 15.0MB of stack and 5.0MB of heap
+
+0.040s : Context switching to pid: 2
+
+0.044s : Process 2 accessed virtual address 0x20000000 which translates to physical address 0x2000000
+
+0.046s : Process 2 accessed virtual address 0xef100000 which translates to physical address 0x1100000
+
+0.080s : Context switching to pid: 1
+
+0.120s : Context switching to pid: 2
+
+0.160s : Context switching to pid: 1
+
+0.200s : Context switching to pid: 2
+
+0.240s : Context switching to pid: 1
+
+0.280s : Context switching to pid: 2
+
+0.320s : Context switching to pid: 1
+
+0.360s : Context switching to pid: 2
+
+0.400s : Context switching to pid: 1
+
+0.440s : Context switching to pid: 2
+
+0.480s : Context switching to pid: 1
+
+0.520s : Context switching to pid: 2
+
+0.553s : Foreground process 3 arrived with priority 32 requesting 25.0MB of stack and 0.0MB of heap
+0.553s : Unable to allocate memory for new process. Dropping process.
+
+0.560s : Context switching to pid: 1
+
+0.600s : Context switching to pid: 2
+
+0.640s : Context switching to pid: 1
+
+0.653s : Process 1 has finished execution and is exiting
+0.653s : Context switching to pid: 2
+
+1.000s : Foreground process 4 arrived with priority 32 requesting 1.0MB of stack and 33.0MB of heap
+1.000s : Unable to allocate memory for new process. Dropping process.
+
+1.023s : Foreground process 5 arrived with priority 32 requesting 5.0MB of stack and 5.0MB of heap
+
+1.033s : Foreground process 6 arrived with priority 32 requesting 3.0MB of stack and 2.0MB of heap
+
+1.050s : Context switching to pid: 5
+
+1.054s : Process 5 accessed virtual address 0x20000000 which translates to physical address 0x2500000
+
+1.056s : Process 5 accessed virtual address 0xefb00000 which translates to physical address 0xa00000
+
+1.090s : Context switching to pid: 6
+
+1.094s : Process 6 accessed virtual address 0x20000000 which translates to physical address 0xf00000
+
+1.096s : Process 6 accessed virtual address 0xefd00000 which translates to physical address 0x2a00000
+
+1.130s : Context switching to pid: 2
+
+1.170s : Context switching to pid: 5
+
+1.210s : Context switching to pid: 6
+
+1.250s : Context switching to pid: 2
+
+1.290s : Context switching to pid: 5
+
+1.330s : Context switching to pid: 6
+
+1.370s : Context switching to pid: 2
+
+1.400s : Foreground process 7 arrived with priority 32 requesting 20.0MB of stack and 2.0MB of heap
+1.400s : Unable to allocate memory for new process. Dropping process.
+
+1.410s : Context switching to pid: 5
+
+1.450s : Context switching to pid: 6
+
+1.490s : Context switching to pid: 2
+
+1.530s : Context switching to pid: 5
+
+1.570s : Context switching to pid: 6
+
+1.610s : Context switching to pid: 2
+
+1.633s : Process 2 has finished execution and is exiting
+1.633s : Context switching to pid: 5
+
+1.670s : Context switching to pid: 6
+
+1.710s : Context switching to pid: 5
+
+1.750s : Context switching to pid: 6
+
+1.790s : Context switching to pid: 5
+
+1.813s : Process 5 has finished execution and is exiting
+1.813s : Context switching to pid: 6
+
+1.833s : Process 6 has finished execution and is exiting
+1.833s : Context switching to pid: 0
+
+2.532s : Foreground process 8 arrived with priority 32 requesting 15.0MB of stack and 0.0MB of heap
+2.532s : Context switching to pid: 8
+
+2.533s : Foreground process 9 arrived with priority 32 requesting 33.0MB of stack and 4.0MB of heap
+2.533s : Unable to allocate memory for new process. Dropping process.
+
+2.536s : Process 8 accessed virtual address 0xef100000 which translates to physical address 0xa00000
+
+2.600s : Foreground process 10 arrived with priority 32 requesting 19.0MB of stack and 55.0MB of heap
+2.600s : Unable to allocate memory for new process. Dropping process.
+
+2.633s : Foreground process 11 arrived with priority 32 requesting 1.0MB of stack and 0.0MB of heap
+
+2.650s : Context switching to pid: 11
+
+2.654s : Process 11 accessed virtual address 0xeff00000 which translates to physical address 0x1900000
+
+2.690s : Context switching to pid: 8
+
+2.730s : Foreground process 12 arrived with priority 32 requesting 4.0MB of stack and 2.0MB of heap
+2.730s : Context switching to pid: 11
+
+2.770s : Context switching to pid: 12
+
+2.774s : Process 12 accessed virtual address 0x20000000 which translates to physical address 0x1e00000
+
+2.776s : Process 12 accessed virtual address 0xefc00000 which translates to physical address 0x1a00000
+
+2.810s : Context switching to pid: 8
+
+2.850s : Context switching to pid: 11
+
+2.881s : Process 11 has finished execution and is exiting
+2.881s : Context switching to pid: 12
+
+2.920s : Context switching to pid: 8
+
+2.955s : Process 8 has finished execution and is exiting
+2.955s : Context switching to pid: 12
+
+2.987s : Process 12 has finished execution and is exiting
+2.987s : Context switching to pid: 0
+

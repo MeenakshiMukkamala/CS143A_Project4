@@ -69,6 +69,8 @@ class Kernel:
         self.rr_ready_queue = deque()
         self.active_queue = FOREGROUND
         self.active_queue_num_ticks = 0
+        self.memory_size = memory_size
+        self.mmu = mmu
 
         self.mutexes = {}
         self.semaphores = {}

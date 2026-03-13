@@ -81,7 +81,7 @@ class Kernel:
     # priority is the priority of new_process.
     # DO NOT rename or delete this method. DO NOT change its arguments.
     #CHANGED
-    def new_process_arrived(self, new_process: PID, priority: int, process_type: str, stack_memory_needed: int, heap_memory_needed: int) -> PID
+    def new_process_arrived(self, new_process: PID, priority: int, process_type: str, stack_memory_needed: int, heap_memory_needed: int) -> PID:
         self.ready_queue.append(PCB(new_process, priority, process_type))
         if self.scheduling_algorithm == MULTILEVEL and self.running is self.idle_pcb:
             self.active_queue_num_ticks = 0
@@ -330,12 +330,44 @@ class MMU:
     # Called before the simulation begins (even before kernel __init__).
     # Use this function to initialize any variables you need throughout the simulation.
     # DO NOT rename or delete this method. DO NOT change its arguments.
-    def __init__(self, logger):
-        pass
+    def __init__(self, logger, base_addresses):
+        self.heap_start =  0x20000000
+        self.stack_start = 0xEFFFFFFF 
+        self.heap_end = 0x200FFFFF
+        self.stack_end = 0xEFF00000
+        self.base_addresses = {}
      
+    def add_stack(self, pid, base_address, size):
+        if pid not in self.base_addresses:
+            self.base_addresses[pid] = {}
+        self.base_addresses[pid]['stack'] = (base_address, size)
+        
+    def add_heap(self, pid, base_address, size):
+        if pid not in self.base_addresses:
+            self.base_addresses[pid] = {}
+        self.base_addresses[pid]['heap'] = (base_address, size)
+        
     # Translate the virtual address to its physical address.
     # If it is not a valid address for the given process, return None which will cause a segmentation fault.
     # If it is valid, translate the given virtual address to its physical address.
     # DO NOT rename or delete this method. DO NOT change its arguments.
     def translate(self, address: int, pid: PID) -> int | None:
+
+        offset = 0
+
+        if pid not in self.base_addresses:
             return None
+
+        # Heap region
+        if self.heap_start <= address <= self.heap_end:
+            base, size = self.base_addresses[pid]['heap']
+            offset = address - self.heap_start
+            return base + offset
+
+        # Stack region
+        elif self.stack_end <= address <= self.stack_start:
+            base, size = self.base_addresses[pid]['stack']
+            offset = self.stack_start - address
+            return base + offset
+
+        return None
